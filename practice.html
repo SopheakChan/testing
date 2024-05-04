@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">    
+</head>
+
+<style>
+  body{
+    display: flex;
+    justify-content: center;
+    background-color: #74b9ff;
+  }
+  .sun{
+    border-radius: 50%;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    animation: Sun 3s linear alternate infinite;
+  }
+  @keyframes Sun {
+    0%{
+      transform: translateY(1000px);
+      background-color: red;
+    }
+    100%{
+      transform: translateY(0);
+      background-color: yellow;
+    }
+  }
+</style>
+<body>
+
+  <section>
+    <div class="sun">Hi kon papa</div>
+
+  </section>
+  
+</body>
+</html>
